@@ -1,0 +1,66 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal, 12pt, twocolumn]{IEEEtran}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{enumerate}
+\usepackage{mathptmx}
+\usepackage{amssymb}
+\usepackage{textcomp}
+\usepackage{mathrsfs}
+\usepackage[euler]{textgreek}
+\begin{document}
+\title{ASSIGNMENT 2}
+\author{Deepshikha(CS21BTECH11016)}
+\maketitle
+
+\begin{abstract}
+This document contains the solution for Assignment 3 (Class 9 Maths NCERT Example 10).
+\end{abstract}
+
+\textbf{Example 10:}
+5 people were asked about the time in a week they spend in doing
+social work in their community. They said 10, 7, 13, 20 and 15 hours, respectively.
+Find the mean (or average) time in a week devoted by them for social work.
+
+\textbf{Solution:}
+We have already studied in our earlier classes that the mean of a certain
+number of observations is equal to\[\frac{\text{Sum of all the observations}}{\text{Total number of observations}}\]
+
+To simplify our working of finding the mean, let us use a variable $x_i$
+to denote the ith observation. In
+this case, \emph{i} can take the values from 1 to 5. So our first observation is $x_1$, second
+observation is $x_2$,and so on till $x_5$.
+
+Also $x_1$ = 10 means that the value of the first observation, denoted by $x_1$,is 10.
+Similarly, $x_2$ = 7, $x_3$ = 13, $x_4$ = 20 and $x_5$ = 15.
+
+Therefore, the mean 
+\begin{align}
+\overline{x}&=\frac{\text{Sum of all the observations}}{\text{Total number of observations}}\\
+    &=\frac{x_1 + x_2 + x_3 +x_4 +x_5}{5}\\
+    &=\frac{10 + 7 + 13 + 20 + 15}{5}\\
+    &=\frac{65}{3}\\
+    &=13
+\end{align}
+
+So, the mean time spent by these 5 people in doing social work is 13 hours in a week.
+
+
+Now, in case we are finding the mean time spent by 30 people in doing social
+work, writing $x_1$ + $x_2$ + $x_3$ +.....+ $x_{30}$ would be a tedious job.We use the Greek symbol \textSigma (for the letter Sigma) for \emph{summation}.
+Instead of writing $x_1$ + $x_2$ + $x_3$ +.....+ $x_{30}$, 
+we write $\sum\limits_{i=1}^{30} x_i $ , which is read as ‘the sum of $x_i$ as \emph{i} varies from 1 to 30’.
+
+
+So,
+\begin{equation}
+    \overline{x}=\frac{\sum\limits_{i=1}^{30} x_i}{30}\label{eq:6}
+\end{equation}
+Similarly, for n observations ,
+\begin{equation}
+    \overline{x}=\frac{\sum\limits_{i=1}^{n} x_i}{n}
+\end{equation}
+
+
+\end{document}
